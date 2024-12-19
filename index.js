@@ -53,7 +53,6 @@ function calculate()
 
 function addDot()
 {
-    // if(isValid(display_active.textContent) && display_active.textContent[display_active.textContent.length - 1] != '.')
     if(isValid(display_active.textContent) && !display_active.textContent.includes('.'))
         display_active.textContent += '.';
 }
